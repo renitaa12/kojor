@@ -20,6 +20,10 @@ jobs:
       - image: ruby
     steps:
       - checkout
+  build_ruby2_9:
+    <<: *build_definition
+    docker:
+      - image: ruby:2.9
   build_ruby2_8:
     <<: *build_definition
     docker:
@@ -43,7 +47,9 @@ workflows:
   build_ruby_versions:
     jobs:
       - build
+      - build_ruby2_9
       - build_ruby2_8
       - build_ruby2_7
       - build_ruby2_6
       - build_ruby2_5
+      
