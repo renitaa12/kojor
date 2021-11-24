@@ -4,6 +4,7 @@
 [![Circle CI](https://circleci.com/gh/mtchavez/circleci.svg?style=svg)](https://circleci.com/gh/mtchavez/circleci)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ce857cb1b17fadd3bb4e/maintainability)](https://codeclimate.com/github/mtchavez/circleci/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ce857cb1b17fadd3bb4e/test_coverage)](https://codeclimate.com/github/mtchavez/circleci/test_coverage)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frenitaa12%2Fkojor.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frenitaa12%2Fkojor?ref=badge_shield)
 
 Circle CI API Wrapper. Requires ruby `>= 2.0.0`.
 
@@ -1292,3 +1293,7 @@ to do anything outside of writing the tests against this repository.
 
 
 [docs]: http://www.rubydoc.info/gems/circleci
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frenitaa12%2Fkojor.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frenitaa12%2Fkojor?ref=badge_large)
